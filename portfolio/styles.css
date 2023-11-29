@@ -1,0 +1,157 @@
+
+
+body {
+    height: 100%;
+    width: 100;
+    background-color: #1c1c1c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 6%;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbarflex {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    color: white;
+    height: 100%;
+    padding: 0% 20%;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.triangle {
+    background-image: url(images/darkmode.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.hoverbox {
+    background-image: url(images/darkmode.png);
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: transform 3s ease;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+  }
+  
+  .hoverbox:hover {
+    transform: scale(1.6);
+  }
+  
+  .headerbutton {
+    background-color: black;
+    color: white;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    margin: 2%;
+  }
+
+  .resume {
+    color: white;
+    background: none;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    margin: 1%;
+    border-radius: 50%;
+    font-size: .75em;
+    background-color: black;
+  }
+
+  .container {
+    width: 75%;
+    margin-top: 6%;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+  }
+
+  .grey-top {
+    width: 100%;
+    height: 50px;
+    background-color: #ddd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size:xx-large;
+  }
+
+  .flexbox{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titletext{
+    position: absolute;
+    top: -25px;
+    left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .bodytext{
+    margin-top: 65px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .imgright{
+    float:right;
+    width: 40%;
+    margin:2%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .imgleft{
+    float:left;
+    width: 40%;
+    margin:2%;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+
+
+  /* put in flexbox */
+  .imgfull{
+    width: 91%;
+    margin:2%;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .imgthirds{
+    width: 28%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .footer {
+    width: 75%;
+    margin-top: 6%;
+    background-color: black;
+    position: relative;
+  }
